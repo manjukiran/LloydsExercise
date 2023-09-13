@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Lloyds-Exercise
+
+  Created by Manju Kiran on 08/08/2023.
+  
+*/
+"retrieving_data" = "Retrieving Data";
+
+"post_list_view_title" = "Posts";
+
+"updating_posts_list_data_message" = "Fetching list of posts";
+
+"no_data_placeholder_message" = "Oops, it appears that we encountered an error when fetching data from our cloud servers.\n\nAm sure our engineers are already working to fix this.\n\n\nWhy dont you pull down to refresh and lets see if the weather has cleared up?";
+
+"data_fetch_in_progress" = "On my way to our servers...";
+
+"ok" = "OK";
+
