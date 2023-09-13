@@ -10,7 +10,7 @@ class LETheme {
 
     private enum Constants {
         /// Theme Color
-        static let themeColorHex = "66CC66"
+        static let themeColorHex = "087038"
         /// Color to indicate that UI element is tappable
         static let actionItemColor = "CC66CC" // Inverse of themeColorHex ^^
     }
@@ -48,6 +48,8 @@ class LETheme {
         navigationBarAppearance.tintColor = UIColor.black
         let standardAppearance = UINavigationBarAppearance()
         standardAppearance.backgroundColor = LETheme.shared.themeColor
+        navigationBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationBarAppearance.prefersLargeTitles = false
 
         navigationBarAppearance.standardAppearance = standardAppearance
         navigationBarAppearance.scrollEdgeAppearance = standardAppearance
